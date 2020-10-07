@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: wheat;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    background: tan;
+    box-shadow: 0 0 15px 0 rgba(0, 0 ,0 , .25);
+
+}
+.container {
+    width: 0 auto;
+    max-width: 1000px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    
+}
+
+nav li {
+    display: inline-block
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: .75em 1.75em;
+    color: seagreen;
+}
+
+nav li:hover,
+nav li:focus {
+    background: rgb(126, 123, 123);
+    
+}
+
+nav li:hover a {
+    color: wheat;
+}
+
+h3 {
+    color:seagreen;
+}
+.menu-sub {
+    position: absolute;
+    left:0;
+    background-color: tan;
+    width: 100%;
+    display: none;
+    padding: 10px;
+}
+
+nav li:hover .menu-sub {
+    display: block;
+}
+
+.menu-sub li {
+    display: block;
+}
+
+.menu-sub a {
+    padding: 0;
+    padding: 5px;
+    
+}
+.menu-sub:hover a {
+    text-decoration: underline;
+}
+
+.sub-catagory {
+    margin: 1.5em 0 .5em;
+}
+
+.sub-catagory:first-of-type {
+    margin-top: .5em;
+}
+
+.menu-col-1 {
+    float: left;
+}
+
+.menu-col-1 {
+    width: 25%;
+}
+
+
+
+
+
+
